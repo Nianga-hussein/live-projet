@@ -7,7 +7,7 @@ document.getElementById('buyNowButton').addEventListener('click', function(event
     const itemImage = document.getElementById('itemImage').src; // Récupérer l'URL de l'image
 
     // Créer le message personnalisé
-    const message = `${itemImage}\nSalut l'agence pili-pili, je suis intéressé par ${itemName} qui coûte ${itemPrice}.`;
+    const message = `${itemImage}\nSalut l'agence AKIENI , je suis intéressé par ${itemName} qui coûte ${itemPrice}.`;
 
     // Encoder le message pour l'URL
     const encodedMessage = encodeURIComponent(message);
